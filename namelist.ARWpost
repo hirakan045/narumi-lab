@@ -1,14 +1,14 @@
 &datetime
- start_date = '2015-03-29_00:00:00',
- end_date   = '2015-05-01_00:00:00',
+ start_date = '2015-07-29_00:00:00',
+ end_date   = '2015-09-01_00:00:00',
  interval_seconds = 3600,
  tacc = 0,
  debug_level = 0,
 /
 
 &io
- input_root_name = '/home/narumi/WRF/DATA/hirayama/wrfout/base/wrfout_d03_2015-03-29_00:00:00'
- output_root_name = '/home/narumi/WRF/DATA/hirayama/wrfout/base/arwpost_04'
+ input_root_name = '/home/narumi/WRF/DATA/wrfout_d03_2015-07-29_00:00:00'
+ output_root_name = '/home/narumi/WRF/DATA/base_08'
  plot = 'all_list'
  fields = 'height,pressure,tk,tc'
  mercator_defs = .true.

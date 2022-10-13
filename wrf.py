@@ -35,7 +35,7 @@ for season in seasons:
 	with open(input_urban,"w") as f:
 		f.write(s2_new)
 	os.system('./real.exe')
-	os.system('mpirun -np 10 ./wrf.exe')
+	os.system('mpirun -np 6 ./wrf.exe')
 	os.system('mv wrfout_d03* ' + path + 'wrfout/' + case)
 	os.system('rm met_em*')
 	os.system('rm wrfbdy_d01')

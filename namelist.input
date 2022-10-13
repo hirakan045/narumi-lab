@@ -4,13 +4,13 @@
  run_minutes                         = 0,
  run_seconds                         = 0,
  start_year                          = 2015, 2015, 2015,
- start_month                         = 12,   12,   12,
+ start_month                         = 07,   07,   07,
  start_day                           = 29,   29,   29,
  start_hour                          = 00,   00,   00,
  start_minute                        = 00,   00,   00,
  start_second                        = 00,   00,   00,
- end_year                            = 2016, 2016, 2016,
- end_month                           = 02,   02,   02,
+ end_year                            = 2015, 2015, 2015,
+ end_month                           = 09,   09,   09,
  end_day                             = 01,   01,   01,
  end_hour                            = 00,   00,   00,
  end_minute                          = 00,   00,   00,
@@ -29,7 +29,7 @@
  /
 
  &domains
- time_step                           = 45,
+ time_step                           = 90,
  time_step_fract_num                 = 0,
  time_step_fract_den                 = 1,
  max_dom                             = 3,
