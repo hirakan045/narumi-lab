@@ -5,7 +5,7 @@ program main
   implicit none
   include '/usr/local/netcdf-4.1.3/include/netcdf.inc'
 !
-  integer, parameter :: lats=90, lons=90, land=41 ! ŸŒ³’· 
+  integer, parameter :: lats=120, lons=120, land=41 ! ŸŒ³’· 
   integer istatus, ncid                                     ! netCDF ID
   integer ilon, ilat, imon, iland
   integer landmaskid, lu_indexid,landusefid                 ! •Ï” ID
